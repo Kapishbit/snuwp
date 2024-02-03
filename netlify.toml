@@ -1,0 +1,9 @@
+[build]
+command = "npm run build"
+publish = "/build"
+base = "/"
+
+[[redrect]]
+from ="/*"
+to = "/index.php"
+status = 200
